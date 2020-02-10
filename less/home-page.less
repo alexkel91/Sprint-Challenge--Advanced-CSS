@@ -15,15 +15,10 @@
   }
 
   .space-images {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+   .img_row();
 
     img {
-      width: 28%;
-      margin: 20px 2.5%;
-      border-radius: 20px;
-      height: 100%;
+      .imgs();
     }
     @media @phone{
       .sky, .launch {
@@ -76,10 +71,11 @@
       }
 
       .btn {
-        background-color: black;
-        color: white;
+        .btn_style(black;white;10px;);
+       
+       
         border: 2px solid #555555;
-        padding:10px;
+       
 
         @media @phone{
           width: 100%;
