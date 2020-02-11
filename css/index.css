@@ -204,7 +204,7 @@ h2 {
 nav {
   display: flex;
   justify-content: space-evenly;
-  width: 60%;
+  width: 100%;
   padding-bottom: 1%;
 }
 @media ( max-width: 500px ) {
@@ -214,6 +214,7 @@ nav {
   }
 }
 nav a {
+  margin-left: 10px;
   color: black;
   text-decoration: none;
   font-size: 2rem;
